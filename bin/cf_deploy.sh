@@ -11,7 +11,8 @@ org=${2}
 branch=${3}
 
 # Get the space that corresponds with the branch name
-if [[ ${branch} == "develop" ]]; then
+# if [[ ${branch} == "develop" ]]; then
+if [[ ${branch} == "feature/test-289-apply-internal-app-route-2" ]]; then
     echo "Branch is develop, deploying to dev space"
     space="dev"
 elif [[ ${branch} == release* ]]; then
